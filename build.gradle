@@ -43,8 +43,9 @@ dependencies {
     annotationProcessor 'org.projectlombok:lombok'
     testImplementation 'org.springframework.boot:spring-boot-starter-test'
     testImplementation 'org.springframework.security:spring-security-test'
-    // https://mvnrepository.com/artifact/it.ozimov/embedded-redis
-    testImplementation 'it.ozimov:embedded-redis:0.7.2'
+    // https://mvnrepository.com/artifact/com.github.codemonstur/embedded-redis
+    testImplementation 'com.github.codemonstur:embedded-redis:1.4.3'
+
 
     testRuntimeOnly 'org.junit.platform:junit-platform-launcher'
 }
