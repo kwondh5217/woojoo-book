@@ -9,6 +9,7 @@ import org.springframework.stereotype.Service;
 @Service
 public class CustomUserDetailsService implements UserDetailsService {
 
+    // TODO : repository 사용하여 구현
     @Override
     public UserDetails loadUserByUsername(String username) throws UsernameNotFoundException {
         return User.builder()
